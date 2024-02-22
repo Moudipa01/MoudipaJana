@@ -24,7 +24,6 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
   shopify,
@@ -63,7 +62,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Flusk Developer",
     icon: creator,
   },
 ];
@@ -125,55 +124,41 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Mentor and Management Lead",
+    companyName: "LetsGrowMore",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2021 - June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Promoted campus awareness of activities and engagement opportunities with on-campus table tents, email distribution,and social media promotion.",
+      "Hosted programs to connect students with non-student neighbours.",
+      "Got letter of recommendation.",
+      "Coordinated group and individual activities to promote creativity and perseverance in face of challenges.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Software Developer Intern",
+    companyName: "IBM",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2021 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked for a security based management system.",
+      "Attended training to learn software development theory, techniques and coding best practices.",
+      "Assisted in programme development through planning, designing, creating and testing.",
+      "Gained in-depth expertise in various coding languages, including C++, Java and JavaScript.",
+      "Had been a part of student developer community"
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Software Developer Intern",
+    companyName: "Misfits",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2023 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on the Web application and App development",
+      "Gained real time experience and hand-on expertise in various frameworks MERN, Golang, Flask.",
     ],
   },
 ];
@@ -181,35 +166,27 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "Moudipa has been a great colleague and a good problem solver. She has exceptional communication skills and is a go getter. She came up with quick and creative solutions to every problem and loves taking on challenges and explore new skills. She is a very curious person and will be my first call.",
+    name: "Anuradha Khaitan",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "LetsGrowmore",
+    image: "https://media.licdn.com/dms/image/C5603AQH4ErrckDxoUA/profile-displayphoto-shrink_400_400/0/1662009151332?e=1714003200&v=beta&t=ukOCfIYbxU_zQGcGuK2RfxFbHKqHZhvcpFMqyPX7RVQ",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Shaswata Basu",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Misfits",
+    image: "https://media.licdn.com/dms/image/C4E03AQEsXRa_L7xzXw/profile-displayphoto-shrink_400_400/0/1628615923488?e=1714003200&v=beta&t=yqBN3bgBw9PcJcyaBM2D_slvkLYu9N-5LT8s9bKaYbI",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Medicure",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Medicine Recommendation System utilizes machine learning algorithms to analyze drug data, providing alternative medication suggestions based on user queries through a user-friendly Streamlit web interface.",
     tags: [
       {
         name: "react",
@@ -220,55 +197,52 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "streamlit",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Moudipa01/medicine-recommendation-system",
   },
   {
-    name: "Job IT",
+    name: "Automated Tagging System for Stack Overflow",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Revolutionizing content categorization on Stack Overflow by employing machine learning algorithms and real-time tagging, enhancing efficiency, accuracy, and adaptability to evolving community trends.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "python",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Moudipa01/Stack-Overflow-Question-tag",
   },
   {
-    name: "Trip Guide",
+    name: "MetaBox| Mental Health Chatbot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "It is an attempt to cure depression among the people by understanding the root cause. It's developed from scrape with the intention of helping people in regulating their moods and barring negative thinking.",
     tags: [
       {
-        name: "nextjs",
+        name: "Pandas",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Flask",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Moudipa01/mental-health-chatbot",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
